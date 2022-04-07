@@ -1,8 +1,8 @@
 # **Conceptos**
 - **_Repositorio local_** (archivos en mi hardware)
 - **_Repositorio remoto_** (archivos en la nube (_GitHub_))
-- **_Ruta absluta_** (dirección exacta del archivo en mi _hardware_ desde el disco en el que se encuentra)
-- **_Ruta relativa_** ()
+- **_Ruta absluta_** (dirección exacta del archivo en mi _hardware_ desde el disco en el que se encuentra) **Ej. "C:\00-EOI\Apuntes\Semana_1\Documento.pdf"**
+- **_Ruta relativa_** (dirección desde la _carpeta_ en la que me encuentro) **Ej. "\Semana_1\Documento.pdf"**
 - **_Stage_** (estado de espera en el que entran los archivos del repositorio local una vez ejecuto _git add_ hasta que guardo con _git commit_ para posteriormente conectar con el repositorio remoto)
 
 
@@ -10,19 +10,31 @@
 # **Comandos básicos de Windows (Win + R / cmd)**
 ## **(El tabulador se utiliza para autocompletar)**
 ### **(Las flechas del teclado para navegar)**
-- cd
+- cd (_cargar ruta especificada_)
 
-- md
+- cd .. (_retroceder en la ruta actual_)
 
-- rm
+- cd / (_ir hasta la raíz, el disco duro_) **Ej. "C:"**
 
-- dir
+- md (_crear archivo_)
 
-- /a
+- mkdir (_crear una carpeta_)
 
-- cls
+- rm (_borrar archivo_)
 
-- (Tocar la tecla Q para matar un proceso)
+- rmdir (_borrar carpeta_ (_no funciona si la carpeta contiene archivos_))
+
+- dir (_lista de las carpetas y archivos dentro de mi ruta actual con su información respectiva_)
+
+- /a (_mostrar archivos ocultos_)
+
+- cls (_limpiar la consola_)
+
+- (_Tocar la tecla Q para matar un proceso_)
+
+### **(Algunos comandos requieren permisos de administrador)**
+
+
 
 # **Comandos básicos de Git**
 
