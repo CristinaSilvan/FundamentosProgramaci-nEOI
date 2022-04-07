@@ -68,7 +68,7 @@
 
 - git remote add main ... (_link del repositorio_)
 
-- git remote -v (_comprobar enlace_)
+- git remote -v (_comprobar conexión con repositorio_)
 
 - git push main (_conectar_)
 
