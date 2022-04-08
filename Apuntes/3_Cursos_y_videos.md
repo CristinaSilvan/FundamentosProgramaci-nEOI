@@ -122,3 +122,44 @@
 [Conceptos básicos](https://www.youtube.com/watch?v=fUiglrfQ0AY)
 
 [Cómo depurar un programa](https://www.youtube.com/watch?v=MFMzDZEdL4k)
+
+# Otros vídeos interesantes
+1. BIOS
+
+- [Qué es la BIOS](https://www.youtube.com/watch?v=EwGnn-xBUuI)
+
+- [Para qué se utiliza](https://www.youtube.com/watch?v=GAXH9nz0QeI)
+
+- [Cómo acceder a ella](https://www.youtube.com/watch?v=egQCiOgG1mk)
+
+2. Visor de eventos
+
+- [Cómo abrir el visor de eventos](https://www.youtube.com/watch?v=dYqUXH7lXBA)
+
+- [Cómo usar el visor de eventos](https://www.youtube.com/watch?v=F14puXp1ijc)
+
+- [Todo lo que se necesita saber](https://www.youtube.com/watch?v=TQkeSHg6z-o)
+
+- [Verificar errores con el visor de eventos](https://www.youtube.com/watch?v=YYPdMp4aU3Y)
+
+3. Administrador de tareas
+
+- [Formas de abrir el administrador de tareas](https://www.youtube.com/watch?v=812iKhEjNmE)
+
+- [Cómo se usa y para qué sirve](https://www.youtube.com/watch?v=6XLBAUZ-orE)
+
+- [Cómo interpretar el administrador de tareas](https://www.youtube.com/watch?v=Tgly2uPf8ZI)
+
+4. Virtualización de la CPU
+
+- [Qué es y para qué sirve](https://www.youtube.com/watch?v=K1vPbQtOlSc)
+
+- [Qué es y en qué consiste](https://www.youtube.com/watch?v=YXlbSfwgjCw)
+
+- [Cómo activarla FORMA STANDAR](https://www.youtube.com/watch?v=Jz9gsLKIsjM)
+
+5. Diferencia entre compilador e interprete
+
+- [Compilación e interpretación](https://www.youtube.com/watch?v=hPYCSu-_LPc)
+
+- [Traductores de lenguajes EXPLICACIÓN](https://www.youtube.com/watch?v=JLEXkb64aKU)
