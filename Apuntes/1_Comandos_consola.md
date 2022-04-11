@@ -12,9 +12,11 @@
 ### **(Las flechas del teclado para navegar)**
 - cd (_cargar ruta especificada_)
 
+- cd . (_ruta actual_)
+
 - cd .. (_retroceder en la ruta actual_)
 
-- cd / (_ir hasta la raíz, el disco duro_) **Ej. "C:"**
+- cd /.. (_ir hasta la raíz, el disco duro_) **Ej. "C:"**
 
 - md (_crear archivo_)
 
@@ -30,8 +32,16 @@
 
 - cls (_limpiar la consola_)
 
+- C: D: E: ... (_para cambiar ruta a otro disco_)
+
+- exit (_para cerrar_) 
+
 - (_Tocar la tecla Q para matar un proceso_)
 
+- **C:\Users\Cristina>**  (_Prompt del sistema por defecto_)
+
+#### **(Escribir el nombre de un fichero o programa en consola, abre el fichero o programa)**
+#### **(Se puede pegar en la línea de comandos con clic derecho)**
 ### **(Algunos comandos requieren permisos de administrador)**
 
 
