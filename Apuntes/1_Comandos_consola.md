@@ -54,6 +54,8 @@
 
 - git branch (_ver las ramas del repositorio_)
 
+- git switch (_cambiar de rama agregando el nombre_)
+
 - git status (_ver información del repositorio actual_)
 
 - git checkout -- . (_los archivos se reestablecen a la última actualización del "stage", por si necesito recuperarlos, inclusive archivos borrados_)
@@ -72,7 +74,18 @@
 
 - git push (_subir el estado del "stage" a la nube_)
 
+- git pull (_cargar el estado del remoto al local_)
+
 - git commit -am (_git add y git commit simultaneamente, se puede agregar un mensaje_)
+
+- git restore (_deshacer cambios en el stage_)
+
+- (**NOTA: Establecer la conexión desde origin ahorra problemas**)
+    - git remote add origin **_enlace repositorio_**
+
+## Fetch significa importar desde remoto
+## Push significa exportar a remoto
+
 
 # **Modo de conectar el Git con GitHub**
 ## **(Una vez instalado propiamente el Git)**
@@ -89,6 +102,7 @@
 ## **(Copiar el link del repositorio de la nube)**
 
 - git remote add main ... (_link del repositorio_)
+(_alternativa origin en vez de main_)
 
 - git remote -v (_comprobar conexión con repositorio_)
 
@@ -113,3 +127,11 @@
 # **Borrar conexión con repositorio remoto**
 
 - git remote rm main
+
+# **Sincronicar si el remoto no está coordenado**
+
+- git branch --set-upstream-to=origin/main main
+
+# **Solución al error sobre unrelated histories**
+
+- git pull --allow-unrelated-histories

@@ -1,6 +1,6 @@
 # Compiladores e intérpretes
 
-![00](img\00.png)
+![00](img/00.png)
 
 **Compiladores**: Programas que convierten el código fuente (alto nivel) a lenguaje máquina (bajo nivel)
 
