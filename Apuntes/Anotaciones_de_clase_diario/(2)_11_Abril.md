@@ -64,7 +64,7 @@ Bases que uno debe conocer a la hora de aprender o utilizar un lenguaje
     - El lenguaje diferencia entre minúsculas, mayúsculas, símbolos y espaciado (lo opuesto es **insensitive**)
 
 - **Statements:**
-    - Forma en la que se inicia y termina cada **sentencia**
+    - Forma en la que se inicia y termina cada **sentencia** o **declaración**
 
 - **Whitespace:** 
     - Espacios y sangrías que hagan del script **legible**, tanto para la máquina, como para el programador o sus compañeros
@@ -74,6 +74,9 @@ Bases que uno debe conocer a la hora de aprender o utilizar un lenguaje
 
 - **Keywords:**
     - Las **palabras reservadas** del lenguaje las cuales no pueden ser reasignadas o utilizadas en otro contexto que no sea para el que están programadas
+
+    ![03](img/03.png)
+    ![04](img/04.png)
 
 (**NOTA: La sintaxis no puede ser ambigua**)
 
