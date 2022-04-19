@@ -396,7 +396,7 @@ print("El resultado es ", resul)
 
 ## 13.  Ejercicios propuestos
 
-    ### i. Calcular y mostrar el cuadrado de los números del 1 a 30
+     I. Calcular y mostrar el cuadrado de los números del 1 a 30
 
         Algoritmo   CuadradosDelUnoAlTreinta
             n <- 1
@@ -409,7 +409,7 @@ print("El resultado es ", resul)
             FinMientras
         FinAlgoritmo
 
-    ### ii. Números primos
+    II. Números primos
 
         Algoritmo   NumerosPrimos
             div <- 2
@@ -443,11 +443,145 @@ print("El resultado es ", resul)
             FinSi
         FinAlgoritmo
 
-    ### iii. Construir un avión de papel
+    III. Construir un avión de papel
 
-    ###
+        Algoritmo ConstruitAvion
+            Escribir "..............._...................
+                      .............__....................
+                      ..........____.................--..
+                      ...__________________________---...
+                      ...__________________________--....
+                      ..........____.....................
+                      .............__....................
+                      ..............._...................
+        FinAlgoritmo
+
+    IV. Realizar las cuatro operaciones básicas (Suma, Resta, Multiplicación, División)
+
+        Algoritmo Calculadora
+            Escribir "Inserte operacion: "
+            Leer Num1
+            Leer Op
+            Leer Num2
+
+            Si Op es igual '+' Entonces
+                Escribir Num1 + Num2
+            Otro si Op es igual '-'
+                Escribir Num1 - Num2
+            Otro si Op es igual '*'
+                Escribir Num1 * Num2
+            Sino
+                Escribir Num1 / Num2
+            FinSi
+        FinAlgoritmo
                 
                 
+    V. Volumen y Area de un Cilindro
+
+        Algoritmo   VolumenYAreaCilindro
+            Escribe "Altura:"
+            Leer h
+            Escribe "Radio:"
+            Leer r
+
+            V <- 3,14 * h * (r*r)
+            Escribe "Volumen del cilindro" V
+                
+            A <- (2 * 3,14 * r * h) + (2 * 3,14 * (r*r))
+            Escribe "Area del cilindro" A
+        FinAlgoritmo
         
-            
+    VI. Pedir un libro en una biblioteca
+
+        Algoritmo PedirLibroBiblioteca
+            Escribe "Usuario:"
+            Leer nombre
+            Escribe "ID:"
+            Leer id
+            Escribe "Titulo libro:"
+            Leer titulo
+            Escribe "Identificador libro:"
+            Leer idLibro
+
+            Permiso <- Aceptado
+            Escribir Fecha Devolucion
+
+            Introducir en base de datos
+        FinAlgoritmo
+
+    VII. Encontrar el mayor de tres números
         
+        Algoritmo MayorDeTres
+            Escribe "Ingrese primer numero:"
+            Leer Num1
+            Escribe "Ingrese segundo numero:"
+            Leer Num2
+            Escribe "Ingrese tercer numero:"
+            Leer Num3
+
+            Si Num1 > Num2 Entonces
+                Si Num1 > Num3 Entonces
+                    Escribir Num1
+                Sino
+                    Escribir Num3
+                FinSi
+            Sino 
+                Si Num2 > Num3 Entonces
+                    Escribir Num2
+                Sino
+                    Escribir Num3
+                FinSi
+            FinSi
+        FinAlgoritmo
+
+    VIII. Factorial de cualquier numero
+
+        Algoritmo Factorial
+            Escribe "Ingrese numero:"
+            Leer nro
+            m <- 2
+            resul <- 0
+
+            Si nro == 1 Entonces
+                Escribir 1
+            Sino
+                Mientras m <= nro Hacer
+                    resul <- resul * m
+                    m <- m + 1
+                FinMientras
+                Escribir "El factorial es " resul
+            FinSi
+        FinAlgoritmo
+
+    IX. Encontrar si un numero es mayor o menor a uno dado
+
+        Algoritmo MayorMenorQue
+            Escribe "Ingrese primer numero"
+            Leer Num1
+            Escribe "Ingrese segundo numero"
+            Leer Num2
+
+            Si Num1 > Num2 Entonces
+                Escribir Num1 "es mayor"
+            Sino
+                Escribir Num2 "es mayor"
+            FinSi
+        FinAlgoritmo
+    
+    X. Adivinar una palabra
+
+        Algoritmo Adivina
+            palabra1 <- suerte
+            palabra2
+            estado <- False
+
+            Mientras estado == False Hacer
+                Escribir "Escriba una palabra"
+                Leer palabra2
+
+                Si palabra2 igual palabra1 Entonces
+                    estado <- True
+            FinMientras
+
+            Escribir "Felicidades, has adivinado la palabra"
+        FinAlgoritmo
