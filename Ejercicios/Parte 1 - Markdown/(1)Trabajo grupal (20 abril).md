@@ -1,3 +1,42 @@
+# Lenguaje SWIFT
+
+
+## Historia
+
+* El desarrollo de este sistema comenzó en julio de 2010 por Chris Lattener junto con la colaboración de otros programadores de Apple.
+Swift se benefició de la experiencia de muchos lenguajes tomando ideas de Objective-C, Haskell, Rust, Ruby, Python, C#, CLU entre otros. 
+
+* En 2014, en el mes de junio la aplicación Apple Worldwide Developers Conference (WWDC) se convirtió en la primera aplicación publicada escrita con este sistema. En septiembre de 2014 swift alcanzó el hito 1.0 con el Gold Master de Xcode 6.0 para iOS.  El Swift 1.1 fue lanzado en octubre de ese mismo año, junto con el lanzamiento de Xcode 6.1. 
+
+* En 2015, swift 1.2 fue lanzado el 8 de abril de 2015, junto con Xcode 6.3. Swift 2.0 se anunció en WWDC 2015 y estuvo disponible para la publicación de aplicaciones en la App Store el 21 de septiembre de 2015. Swift ganó el primer lugar como Lenguaje de programación más querido en la Encuesta para desarrolladores de Stack Overflow este mismo año. 
+
+* En 2016, swift 3.0 se lanzó en septiembre. Durante la WWDC 2016 , Apple anunció una aplicación exclusiva para iPad , llamada Swift Playgrounds , destinada a enseñar a las personas cómo codificar en Swift. La aplicación se presenta en una interfaz similar a un videojuego en 3D que proporciona información cuando las líneas de código se colocan en un orden determinado y se ejecutan.
+
+* En enero de 2017 Chris Lattner anunció su salida de Apple para ocupar un nuevo puesto en Tesla Motors y el papel principal del proyecto Swift recayó en el veterano del equipo Ted Kremenek. Ese mismo año salió la versión swift 4, al año siguiente swift 4.1 y swift 5 fue lanzado en marzo de 2019. 
+
+* Durante la WWDC 2019, Apple anunció SwiftUI, que proporciona un marco para el diseño de la estructura declarativa de la interfaz de usuario en todas las plataformas de Apple. Swift 5.1 se lanzó oficialmente en septiembre de 2019. Swift 5.1 se basa en la versión anterior de Swift 5 al extender las características estables del lenguaje al tiempo de compilación con la introducción de la estabilidad del módulo. La introducción de la estabilidad del módulo permite crear y compartir marcos binarios que funcionarán con futuras versiones de Swift.
+
+
+## Compilado/interpretado/Hybrido
+
+* Swift es un lenguaje de programación compilado de uso general. 
+
+
+## Palabras clave
+
+* Algunas de las palabras clave de este sistema serían: var, str, import, let, class, if, struct. 
+Sin embargo, las palabras reservadas pueden usarse como identificadores poniendo acentos graves (`) antes y después del identificador.
+
+
+## Sensible a la mayuscula y minuscula
+
+* Es un lenguaje sensible a las mayúsculas y a las minúsculas, al igual que le sucede a otros lenguajes como, por ejemplo, el lenguaje C. 
+
+## Tipado
+
+* Swift es un lenguaje fuertemente tipado, aunque su declaración no siempre es necesaria gracias a su capacidad de inferir tipos. Los tipos de datos se dividen principalmente en dos grupos. Los Tipos de valor y los Tipos por referencia, se diferencian principalmente en como son asignados.
+
+
 ## Cuánto gana un programador de media:
 
 * Programar Swift está asociado con un salario global medio de 57.520€, aunque este aumenta en Estados Unidos donde puede llegar a los $82.472. El salario asociado a este lenguaje es un 19,6% más alto que la media global, ya que busca ser más asequible que las opciones existentes. Por otra parte, un desarrollador de iOS independiente con mucha experiencia puede cobrar hasta $75 por hora (eso es $150.000 al año). En la actualidad, todo profesional que se precie, debe dominarlo para poder trabajar en el desarrollo de cualquier app compatible con iOS.

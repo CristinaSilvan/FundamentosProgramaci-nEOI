@@ -303,3 +303,151 @@ print(Resul)
 ```
 
 ## 10. Leer tres números; si el primero es negativo, debe imprimir la multiplicación de los tres y si no lo es, imprimirá la suma
+
+* 1.1   Imprimir: _Ingrese numero 1_
+* 1.2   Num1 = -1
+* 1.3   Imprimir: _Ingrese numero 2_
+* 1.4   Num2 = 2
+* 1.5   Imprimir: _Ingrese numero 3_
+* 1.6   Num3 = 4
+* 1.7   Num1 < 0: _True_
+* 1.8   Resul: -8
+* 1.9   Imprimir: _-8_
+
+---
+
+* 2.1   Imprimir: _Ingrese numero 1_
+* 2.2   Num1 = 1
+* 2.3   Imprimir: _Ingrese numero 2_
+* 2.4   Num2 = 2
+* 2.5   Imprimir: _Ingrese numero 3_
+* 2.6   Num3 = 4
+* 2.7   Num1 < 0: _False_
+* 2.8   Resul: 8
+* 2.9   Imprimir: _8_
+
+```
+Num1 = int(input("Ingrese numero 1"))
+Num2 = int(input("Ingrese numero 2"))
+Num3 = int(input("Ingrese numero 3"))
+
+if Num1 < 0:
+    Resul = Num1 * Num2 * Num3
+else:
+    Resul = Num1 + Num2 + Num3
+
+print(Resul)
+```
+
+## 11. Determina si un número ingresado es primo o no. (Un número es primo si es divisible únicamente por 1 y por sí mismo)
+
+* 1.1   Imprimir: _Ingrese un numero: _
+* 1.2   nro: 2
+* 1.3   div: 2
+* 1.4   band: True
+* 1.5   nro == 1: _False_
+* 1.6   band == True y nro > div: _False_
+* 1.7   Imprimir: _Es es primo_
+
+```
+nro = int(input("Ingrese un numero: "))
+div = 2
+band = bool(True)
+
+if nro = 1:
+    print("Es primo")
+
+else:
+    while (band == True) and (nro > div):
+        if nro % div == 0:
+            band = bool(False)
+        div = div + 1
+    if band == True:
+        print("Es primo")
+    else:
+        print("No es primo")
+```
+
+## 12. Sumar los dígitos de un número ingresado. Ejemplo: Si se ingresa 123, debería devolver 6
+
+* 1.1   Imprimir: _Ingrese un nro: _
+* 1.2   nro: 123
+* 1.3   resul: 0
+* 1.4   nro > 0: _True_
+* 1.5   resul: 3
+* 1.6   nro: 12
+* 1.7   resul: 5
+* 1.8   nro: 1
+* 1.9   resul: 6
+* 1.10  nro: 1
+* 1.11  Imprimir: _El resultado es 6_
+
+```
+import math
+
+nro = int(input("Ingrese un nro: "))
+resul = 0
+
+while nro > 0:
+    resul = resul + nro % 10
+    nro = math.trunc(nro / 10)
+print("El resultado es ", resul)
+```
+
+## 13.  Ejercicios propuestos
+
+    ### i. Calcular y mostrar el cuadrado de los números del 1 a 30
+
+        Algoritmo   CuadradosDelUnoAlTreinta
+            n <- 1
+            m <- 30
+            resul <- 0
+            Mientras n <= m Hacer
+                resul <- n * n
+                Escribir Resul
+                n = n + 1
+            FinMientras
+        FinAlgoritmo
+
+    ### ii. Números primos
+
+        Algoritmo   NumerosPrimos
+            div <- 2
+            nro <- 0 
+            estado <- True
+            Escribir "Ingrese el numero: "
+            Leer nro
+
+            Si nro == 1 Entonces
+                Escribir "Es primo"
+                FinAlgoritmo
+            Sino
+                Si nro < 1 Entonces
+                    Escribir "ERROR!!!"
+                    FinAlgoritmo
+                Sino
+                    Mientras nro > div Hacer
+                        Si nro % div == 0 Entonces
+                            estado <- False
+                        FinSi
+
+                        div <- div + 1
+                    FinMientras
+                FinSi
+            FinSi
+
+            Si estado == True Entonces
+                Escribir "Es primo"
+            Sino
+                Escribir "No es primo"
+            FinSi
+        FinAlgoritmo
+
+    ### iii. Construir un avión de papel
+
+    ###
+                
+                
+        
+            
+        
