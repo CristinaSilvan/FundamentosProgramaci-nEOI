@@ -42,3 +42,5 @@ Es una secuencia ordenada de pasos sin ambigüedades que solucionan un problema 
 # Otros
 
 Una **prueba de escritorio** es una tabla en la que se indican los valores de las distintas variables a lo largo de la ejecución
+
+Las **variables** deben inicializarse antes de ser utilizadas, incluso cuando posteriormente leerán un valor de pantalla

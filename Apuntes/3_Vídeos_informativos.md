@@ -16,6 +16,9 @@
 - [Curso Práctico](https://www.youtube.com/watch?v=HiXLkL42tMU)
 - [12 comandos que debes saber](https://www.youtube.com/watch?v=iT4UOkyI09k)
 - [Porqué usar GitHub](https://www.youtube.com/watch?v=ARmThT1BVy4)
+- [Stage y Logs](https://www.youtube.com/watch?v=YN1PI5iAlhg)
+- [Stagging files](https://www.youtube.com/watch?v=KngvG8WzYLU)
+- [Stage, Workspace y Repo](https://www.youtube.com/watch?v=3t5Np7VpPDM)
 
 # Markdown
 - [Curso para principiantes (En Visual Studio)](https://www.youtube.com/watch?v=oxaH9CFpeEE)
@@ -163,3 +166,23 @@
 - [Compilación e interpretación](https://www.youtube.com/watch?v=hPYCSu-_LPc)
 
 - [Traductores de lenguajes EXPLICACIÓN](https://www.youtube.com/watch?v=JLEXkb64aKU)
+
+6. Optimización de Windows
+
+- [Limpiar y optimizar sin programas](https://www.youtube.com/watch?v=ywCOs4XyNgg)
+
+7. Back-End y Fron-End
+
+- [Qué son](https://www.youtube.com/watch?v=50RbVujPPGs)
+- [Diferencias](https://www.youtube.com/watch?v=4eKlV0CrKLU)
+- [Desarrollo web](https://www.youtube.com/watch?v=Gdprnr_NXmE)
+
+8. Full-Stack
+
+- [Qué es](https://www.youtube.com/watch?v=D730itwFoq4)
+- [Qué hace](https://www.youtube.com/watch?v=xhmyHZUNQNU)
+
+9. Cómo crear una App
+
+- [Cómo crear una App en Java](https://www.youtube.com/watch?v=3OoDcASSsPo)
+- [Aplicaciones con Python](https://www.youtube.com/watch?v=sBLl7nA6LjE)
