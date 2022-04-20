@@ -25,7 +25,7 @@ Swift se benefició de la experiencia de muchos lenguajes tomando ideas de Objec
 ## Palabras clave
 
 * Al ser un lenguaje mayormente inspirado en C#, su sintaxis es muy similar, al igual que el tratamiento de datos.
-Acorde con [Swift’s official docs](https://docs.swift.org/swift-book/ReferenceManual/LexicalStructure.html#:~:text=the%20following%20keywords%20are%20reserved%20and%20can%E2%80%99t%20be%20used%20as%20identifiers), existen seis tipos de variables en el lenguaje:
+Acorde con [Swift’s official docs](https://docs.swift.org/swift-book/ReferenceManual/LexicalStructure.html#:~:text=the%20following%20keywords%20are%20reserved%20and%20can%E2%80%99t%20be%20used%20as%20identifiers), existen seis tipos de palabras reservadas en el lenguaje:
     
     * **Palabras reservadas para declaraciones:** associatedtype, class, deinit, enum, extension, fileprivate, func, import, init, inout, internal, let, open, operator, private, precedencegroup, protocol, public, rethrows, static, struct, subscript, typealias y var
 
