@@ -349,6 +349,30 @@ print(Resul)
 * 1.6   band == True y nro > div: _False_
 * 1.7   Imprimir: _Es es primo_
 
+---
+
+* 2.1   Imprimir: _Ingrese un numero: _
+* 2.2   nro: 1
+* 2.3   div: 2
+* 2.4   band: True
+* 2.5   nro == 1: True
+* 2.6   Imprimir: _Es primo_
+
+--- 
+* 3.1   Imprimir: _Ingrese un numero: _
+* 3.2   nro: 4
+* 3.3   div: 2
+* 3.4   band: True
+* 3.5   nro == 1: False
+* 3.6   band == True y nro > div: True
+* 3.7   n % div == 0: True
+* 3.8   band = bool(False)
+* 3.9   div: 3
+
+(Salta a **3.6**)
+* 3.6   band == True y nro > div: False
+* 3.7   Imprimir: _No es primo_
+
 ```
 nro = int(input("Ingrese un numero: "))
 div = 2
