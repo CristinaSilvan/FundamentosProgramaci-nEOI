@@ -21,27 +21,49 @@ Swift se benefició de la experiencia de muchos lenguajes tomando ideas de Objec
 
 * Swift es un lenguaje de programación compilado de uso general. 
 
+---
 
 ## Palabras clave
 
-* Algunas de las palabras clave de este sistema serían: var, str, import, let, class, if, struct. 
-Sin embargo, las palabras reservadas pueden usarse como identificadores poniendo acentos graves (`) antes y después del identificador.
+* Al ser un lenguaje mayormente inspirado en C#, su sintaxis es muy similar, al igual que el tratamiento de datos.
+Acorde con [Swift’s official docs](https://docs.swift.org/swift-book/ReferenceManual/LexicalStructure.html#:~:text=the%20following%20keywords%20are%20reserved%20and%20can%E2%80%99t%20be%20used%20as%20identifiers), existen seis tipos de variables en el lenguaje:
+    
+    * **Palabras reservadas para declaraciones:** associatedtype, class, deinit, enum, extension, fileprivate, func, import, init, inout, internal, let, open, operator, private, precedencegroup, protocol, public, rethrows, static, struct, subscript, typealias y var
+
+    * **Palabras reservadas para instrucciones:** break, case, catch, continue, default, defer, do, else, fallthrough, for, guard, if, in, repeat, return, throw, switch, where y while
+
+    * **Palabras reservadas para espresiones y tipos:** Any, as, catch, false, is, nil, rethrows, self, Self, super, throw, throws, true y try
+
+    * **Palabras reservadas para patrones:** _
+
+    * **Palabras reservadas que comienzan con un signo numérico:** #available, #colorLiteral, #column, #dsohandle, #elseif, #else, #endif, #error, #fileID, #fileLiteral, #filePath, #file, #function, #if, #imageLiteral, #keyPath, #line, #selector, #sourceLocation y #warning
+
+    * **Palabras reservadas en contextos particulares:** associativity, convenience, didSet, dynamic, final, get, indirect, infix, lazy, left, mutating, none, nonmutating, optional, override, postfix, precedence, prefix, Protocol, required, right, set, some, Type, unowned, weak y willSet 
+
+**Nota: Los siguientes caracteres están reservados como puntuación y no pueden ser utilizados para customizar identificadores: (, ), {, }, [, ], ., ,, :, ;, =, @, #, &, ->, `, ?, and ! (como prefijos)**
+
+**Sin embargo, las palabras reservadas pueden usarse como identificadores poniendo acentos graves (`) antes y después del identificador**
+
+---
 
 
 ## Sensible a la mayuscula y minuscula
 
 * Es un lenguaje sensible a las mayúsculas y a las minúsculas, al igual que le sucede a otros lenguajes como, por ejemplo, el lenguaje C. 
 
+---
+
 ## Tipado
 
 * Swift es un lenguaje fuertemente tipado, aunque su declaración no siempre es necesaria gracias a su capacidad de inferir tipos. Los tipos de datos se dividen principalmente en dos grupos. Los Tipos de valor y los Tipos por referencia, se diferencian principalmente en como son asignados.
 
+---
 
 ## Cuánto gana un programador de media:
 
 * Programar Swift está asociado con un salario global medio de 57.520€, aunque este aumenta en Estados Unidos donde puede llegar a los $82.472. El salario asociado a este lenguaje es un 19,6% más alto que la media global, ya que busca ser más asequible que las opciones existentes. Por otra parte, un desarrollador de iOS independiente con mucha experiencia puede cobrar hasta $75 por hora (eso es $150.000 al año). En la actualidad, todo profesional que se precie, debe dominarlo para poder trabajar en el desarrollo de cualquier app compatible con iOS.
 
-
+---
 
 ## Cantidad de personas en la comunidad:
 
@@ -49,13 +71,13 @@ Sin embargo, las palabras reservadas pueden usarse como identificadores poniendo
 Para resaltar, Swift tiene una comunidad de código abierto tremendamente activa. Esto propicia que Swift tenga abundantes recursos para ayudar a todos los desarrolladores a aprender y dominar la programación con este sistema.
 También tiene un gran conjunto de podcasts, cursos, e incluso juegos Swift con para mejorar y facilitar la experiencia de aprendizaje.
 
-
+---
 
 ## Influencia de otro lenguaje:
 
 * Swift combina el rendimiento y la eficiencia de los lenguajes compilados con la simplicidad y la interactividad de los lenguajes de scripts populares. Hay que entender que su existencia deriva de la necesidad de mejorar o incluso sustituir lenguajes como Objetive-C. De hecho, no solo lo supera, sino que también se le considera mejor que usar C o C++, en los que también se basa. Por esto, puede usar cualquier biblioteca programada en Objective-C y llamar a funciones de C.
 
-
+---
 
 ## Plataformas:
 
