@@ -26,3 +26,25 @@
 * Se pueden ejecutar **Scripts** desde el command prompt y debe tener **extensión .cmd**
 
 * Si escribo copy con <NombreArchivo.Extensión> en la consola, esta me creará un archivo exactamente igual en el que se guardará lo que escriba a continuación (finaliza con Ctrl + Z)
+
+(**NOTA: he creado un archivo actualizarGIT.cmd en la carpeta por defecto del prompt que al ejecutarla directamente ejecuta los comandos de cargar la carpeta EOI y añadir al stage las actualizaciones**)
+
+```
+C:\Users\Cristina> copy con actualizarGIT.cmd
+cd \..
+cd 00-EOI
+git add .
+
+(Ctrl + Z)
+
+C:\Users\Cristina> actualizarGIT.cmd
+C:\00-EOI>
+```
+
+# Otros
+
+El **casting** es el proceso en el que el ordenador decide que tipo de dato es un valor
+
+**Fuertemente tipado** significa que cada valor debe ser tipado y su conversión entre distintos tipos de datos es muy específica
+
+**W3C** es el consorcio que decide toda la regulación acerca de la web

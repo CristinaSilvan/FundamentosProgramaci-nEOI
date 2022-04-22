@@ -420,20 +420,18 @@ print("El resultado es ", resul)
 
 ## 13.  Ejercicios propuestos
 
-     I. Calcular y mostrar el cuadrado de los números del 1 a 30
+I. Calcular y mostrar el cuadrado de los números del 1 a 30
 
         Algoritmo   CuadradosDelUnoAlTreinta
             n <- 1
             m <- 30
-            resul <- 0
             Mientras n <= m Hacer
-                resul <- n * n
-                Escribir Resul
+                Escribir "El cuadrado de " + n + "es: " + (n*n)
                 n = n + 1
             FinMientras
         FinAlgoritmo
 
-    II. Números primos
+II. Números primos
 
         Algoritmo   NumerosPrimos
             div <- 2
@@ -467,20 +465,20 @@ print("El resultado es ", resul)
             FinSi
         FinAlgoritmo
 
-    III. Construir un avión de papel
+III. Construir un avión de papel
 
-        Algoritmo ConstruitAvion
-            Escribir "..............._...................
-                      .............__....................
-                      ..........____.................--..
-                      ...__________________________---...
-                      ...__________________________--....
-                      ..........____.....................
-                      .............__....................
-                      ..............._...................
+        Algoritmo PasosParaConstruirAvionDePapel
+            Escribir "Paso 1 - Conseguir Hoja de Papel"
+            Escribir "Paso 2 - Doblar el papel a la mitad"
+            Escribir "Paso 3 - Doblar la esquina al centro izquierda"
+            Escribir "Paso 4 - Doblar la esquina al centro derecha"
+            Escribir "Paso 5 - Con el papel doblado, volver a doblar la esquina al centro izquierda"
+            Escribir "Paso 6 - Doblar hacia abajo para formar alas en ambos lados"
+            Escribir "Paso 7 - Comprobar los pasos anteriores"
+            Escribir "Paso 8 - (Opcional) Probar que vuela"
         FinAlgoritmo
 
-    IV. Realizar las cuatro operaciones básicas (Suma, Resta, Multiplicación, División)
+IV. Realizar las cuatro operaciones básicas (Suma, Resta, Multiplicación, División)
 
         Algoritmo Calculadora
             Escribir "Inserte operacion: "
@@ -500,7 +498,7 @@ print("El resultado es ", resul)
         FinAlgoritmo
                 
                 
-    V. Volumen y Area de un Cilindro
+V. Volumen y Area de un Cilindro
 
         Algoritmo   VolumenYAreaCilindro
             Escribe "Altura:"
@@ -515,7 +513,7 @@ print("El resultado es ", resul)
             Escribe "Area del cilindro" A
         FinAlgoritmo
         
-    VI. Pedir un libro en una biblioteca
+VI. Pedir un libro en una biblioteca
 
         Algoritmo PedirLibroBiblioteca
             Escribe "Usuario:"
@@ -533,7 +531,7 @@ print("El resultado es ", resul)
             Introducir en base de datos
         FinAlgoritmo
 
-    VII. Encontrar el mayor de tres números
+VII. Encontrar el mayor de tres números
         
         Algoritmo MayorDeTres
             Escribe "Ingrese primer numero:"
@@ -558,7 +556,7 @@ print("El resultado es ", resul)
             FinSi
         FinAlgoritmo
 
-    VIII. Factorial de cualquier numero
+VIII. Factorial de cualquier numero
 
         Algoritmo Factorial
             Escribe "Ingrese numero:"
@@ -577,7 +575,7 @@ print("El resultado es ", resul)
             FinSi
         FinAlgoritmo
 
-    IX. Encontrar si un numero es mayor o menor a uno dado
+IX. Encontrar si un numero es mayor o menor a uno dado
 
         Algoritmo MayorMenorQue
             Escribe "Ingrese primer numero"
@@ -592,7 +590,7 @@ print("El resultado es ", resul)
             FinSi
         FinAlgoritmo
     
-    X. Adivinar una palabra
+X. Adivinar una palabra
 
         Algoritmo Adivina
             palabra1 <- suerte
