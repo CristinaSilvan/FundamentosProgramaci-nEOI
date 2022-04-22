@@ -40,6 +40,8 @@
 
 - **C:\Users\Cristina>**  (_Prompt del sistema por defecto_)
 
+- Si escribo copy con <NombreArchivo.Extensión> en la consola, esta me creará un archivo exactamente igual en el que se guardará lo que escriba a continuación (finaliza con Ctrl + Z)
+
 #### **(Escribir el nombre de un fichero o programa en consola, abre el fichero o programa)**
 #### **(Se puede pegar en la línea de comandos con clic derecho)**
 ### **(Algunos comandos requieren permisos de administrador)**
