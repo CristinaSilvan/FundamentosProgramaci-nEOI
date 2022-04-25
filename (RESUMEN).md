@@ -15,7 +15,8 @@
 
 * Python
      * [Pruebas](https://github.com/CristinaSilvan/EOI-IntroProgramacionPython/tree/main/Pruebas)
-     * [Ejercicios de clase]()
+     * [Apuntes](https://github.com/CristinaSilvan/EOI-IntroProgramacionPython/tree/main/Apuntes)
+     * [Ejercicios de clase](https://github.com/CristinaSilvan/EOI-IntroProgramacionPython/tree/main/Ejercicios%20de%20Clase)
 
 * C#
      * [Pruebas]()

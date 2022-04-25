@@ -41,6 +41,9 @@ C:\Users\Cristina> actualizarGIT.cmd
 C:\00-EOI>
 ```
 
+Si vuelvo a escribir **copy con** con ese mismo archivo, lo sobreescribe
+
+
 # Otros
 
 El **casting** es el proceso en el que el ordenador decide que tipo de dato es un valor

@@ -44,7 +44,7 @@
 
 - echo " " >> <_archivo.extension_> escribe la cadena en el archivo (si no existe el fichero, lo crea)
 
-- Si escribo copy con <NombreArchivo.Extensión> en la consola, esta me creará un archivo exactamente igual en el que se guardará lo que escriba a continuación (finaliza con Ctrl + Z)
+- Si escribo copy con <NombreArchivo.Extensión> en la consola, esta me creará un archivo exactamente igual en el que se guardará lo que escriba a continuación (finaliza con Ctrl + Z) (Si vuelvo a escribir **copy con** con ese mismo archivo, lo sobreescribe)
 
 #### **(Escribir el nombre de un fichero o programa en consola, abre el fichero o programa)**
 #### **(Se puede pegar en la línea de comandos con clic derecho)**
