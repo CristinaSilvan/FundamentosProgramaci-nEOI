@@ -1,3 +1,4 @@
 # Creado repositorio para Python
-type <archivo.extension> muestra el contenido
-escho " " >> <archivo.extension> escribe la cadena en el archivo (si no existe el fichero, lo crea)
+
+- type <_archivo.extension_> muestra el contenido
+- echo " " >> <_archivo.extension_> escribe la cadena en el archivo (si no existe el fichero, lo crea)

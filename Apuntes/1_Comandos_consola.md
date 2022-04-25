@@ -40,12 +40,26 @@
 
 - **C:\Users\Cristina>**  (_Prompt del sistema por defecto_)
 
+- type <_archivo.extension_> muestra el contenido
+
+- echo " " >> <_archivo.extension_> escribe la cadena en el archivo (si no existe el fichero, lo crea)
+
 - Si escribo copy con <NombreArchivo.Extensión> en la consola, esta me creará un archivo exactamente igual en el que se guardará lo que escriba a continuación (finaliza con Ctrl + Z)
 
 #### **(Escribir el nombre de un fichero o programa en consola, abre el fichero o programa)**
 #### **(Se puede pegar en la línea de comandos con clic derecho)**
 ### **(Algunos comandos requieren permisos de administrador)**
 
+# **Trucos consola Windows**
+- F1: Vuelve a escribir el último comando utilizado, carácter por carácter por pulsación.
+- F2: Pregunta por un carácter, luego vuelve a escribir el último comando utilizado hasta la primera aparición de ese caracter.
+- F3: Vuelve a escribir completamente el último comando utilizado.
+- F4: Solicita un carácter, luego borra todos los caracteres en el comando actual, comenzando desde la posición del cursor hasta la primera aparición del carácter solicitado.
+- F5: Vuelve a escribir completamente los comandos utilizados anteriormente, pero no se activa.
+- F6: Tipos ^ Z en el comando actual.
+- F7: Presenta un menú de comandos utilizados anteriormente.
+- F8: Reescribe completamente los comandos usados ??anteriormente.
+- F9: Vuelve a escribir completamente un comando utilizado previamente, que corresponde al número en el menú presentado por F7.
 
 
 # **Comandos básicos de Git**
@@ -108,6 +122,10 @@
 
 - git remote -v (_comprobar conexión con repositorio_)
 
+(**NOTA IMPORTANTE: Si al crear el repositorio, creamos el README.md, habrá un error de sincronización al no estar ese archivo en nuestro repositorio local y habrá que hacer un git pull antes del push**)
+
+(**Otra alternativa en caso de que de error por esto mismo, es escribir git clone <_link repositorio_>**)
+
 - git push main (_conectar_)
 
 
@@ -123,7 +141,6 @@
 - git push main (_completar actualización_)
 
 - git status (_comprobar que se ha realizado_)
-
 
 
 # **Borrar conexión con repositorio remoto**
