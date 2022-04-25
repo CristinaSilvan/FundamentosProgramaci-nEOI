@@ -10,8 +10,8 @@
 
 * Ejercicios
      * [Primer trabajo Markdown](https://github.com/CristinaSilvan/FundamentosProgramacionEOI/blob/main/FICHEROMDVSCODE.md)
-     * [Trabajo SWITF](https://github.com/CristinaSilvan/FundamentosProgramacionEOI/blob/main/Ejercicios/Parte%201%20-%20Markdown/(1)Trabajo%20grupal%20(20%20abril).md)
-     * [Ejercicio tablas de escritorio](https://github.com/CristinaSilvan/FundamentosProgramacionEOI/blob/main/Ejercicios/Parte%201%20-%20Markdown/(2)%20Ejercicios%20tablas%20de%20escritorio.md)
+     * [Trabajo SWITF](https://github.com/CristinaSilvan/FundamentosProgramacionEOI/blob/main/Ejercicios/(1)Trabajo%20grupal%20(20%20abril).md)
+     * [Ejercicio tablas de escritorio](https://github.com/CristinaSilvan/FundamentosProgramacionEOI/blob/main/Ejercicios/(2)%20Ejercicios%20tablas%20de%20escritorio.md)
 
 * Python
      * [Pruebas](https://github.com/CristinaSilvan/EOI-IntroProgramacionPython/tree/main/Pruebas)
