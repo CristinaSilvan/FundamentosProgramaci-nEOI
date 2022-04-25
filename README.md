@@ -1,6 +1,5 @@
 # FundamentosProgramacionEOI
-Curso de Cloud Computing Azure (Microsoft Spain)
-Contiene:
+Curso de Cloud Computing Azure (Microsoft Spain), contiene:
 * Apuntes diarios de clase
 * Apuntes autodidacta
 * Ejercicios
