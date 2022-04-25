@@ -14,7 +14,7 @@
      * [Ejercicio tablas de escritorio](https://github.com/CristinaSilvan/FundamentosProgramacionEOI/blob/main/Ejercicios/Parte%201%20-%20Markdown/(2)%20Ejercicios%20tablas%20de%20escritorio.md)
 
 * Python
-     * [Pruebas](https://github.com/CristinaSilvan/FundamentosProgramacionEOI/tree/main/Python/Pruebas)
+     * [Pruebas](https://github.com/CristinaSilvan/EOI-IntroProgramacionPython/tree/main/Pruebas)
      * [Ejercicios de clase]()
 
 * C#
