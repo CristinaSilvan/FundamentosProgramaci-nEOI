@@ -35,13 +35,13 @@ print("Hola Mundo")
 N = 0
 N = int(input("Escribir el numero "))
 if N == 9:
-    print("El numero es igual a 9)
+    print("El numero es igual a 9")
 else:
     if N > 9:
-        print("El numero es mayor a 9)
+        print("El numero es mayor a 9")
 
     else:
-        print("El numero es menor a 9)
+        print("El numero es menor a 9")
 ```
 
 ## 3. A partir de un número ingresado diga si el mismo es par o impar
