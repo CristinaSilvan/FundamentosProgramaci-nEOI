@@ -30,3 +30,22 @@ Un programa se escribe en un lenguaje de programación y estos se pueden clasifi
 
 # Datos
 
+Dato es la expresión general que describe objetos con los cuales opera el algoritmo. El tipo de un dato determina su forma de almacenamiento en memoria y las operaciones que van a poder ser efectuadas con él. En principio hay que tener en cuenta que, prácticamente cualquier lenguaje y por tanto cualquier algoritmo, se podrán usar datos de los siguientes tipos:
+
+* Entero: Subconjunto finito de los números enteros, cuyo rango o tamaño dependerá del lenguaje en el que posteriormente codifiquemos el algoritmo y de la computadora utilizada.
+
+* Real: Subconjunto de los números reales limitado no sólo en cuanto a tamaño, sino también en cuanto a la precisión
+
+* Lógico: Conjunto formado por los valores verdad y falso
+
+* Carácter: Conjunto finito y ordenado de los caracteres que la computadora reconoce
+
+* Cadena: Los datos (objetos) de este tipo contendrán una serie finita de caracteres, que podrán ser directamente traídos o enviados a/desde la consola
+
+Es decir, los tipos entero, real, carácter, cadena y lógico son **_tipos predefinidos_** en la mayoría de lenguajes de programación. En los algoritmos para indicar que un dato es de uno de estos tipos se declarará utilizando directamente el identificador o nombre del tipo (**palabra reservada**)
+
+Además los lenguajes permiten al programador definir sus propios tipos de datos, los cuales pueden venir expresados con constantes, variables, expresiones o funciones.
+
+# Constantes
+
+Son datos cuyo valor no cambia durante todo el desarrollo del algoritmo. Las constantes
