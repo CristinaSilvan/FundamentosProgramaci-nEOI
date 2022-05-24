@@ -1,4 +1,4 @@
 git add .
-git commit -m "Actualizaci¢n Repositorio"
+git commit -m "Actualizando"
 git push
 cls
